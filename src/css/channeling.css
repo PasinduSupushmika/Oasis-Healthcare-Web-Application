@@ -1,0 +1,40 @@
+.app_container {
+    max-width: 30%;
+    margin: 20px 18px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.app-info {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: left;
+}
+
+.app-info label {
+    font-weight: bold;
+    flex-basis: 100px; /* Adjust this width as needed */
+    margin-top: 15px;
+}
+
+.app-info p {
+    margin-left: 150px;
+    margin-bottom: 0px;
+}
+
+.app-info button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.app-info button.delete-btn {
+    background-color: transparent;
+    color: blue;
+    border: 1px solid blue;
+}
